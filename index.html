@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mercato — the little market of everything Marie makes</title>
+  <meta name="description" content="Operating systems, custom tools, guides, and paintings by Marie-Constance Múñiz. Unrelated on purpose, all built with care.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Mono:wght@400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/css/mercato.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-41CJMKQ3DV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-41CJMKQ3DV');
+  </script>
+</head>
+<body>
+  <div class="stripe"></div>
+
+  <div class="container">
+    <header class="site-header">
+      <a href="/" class="wordmark">mercato<span>.</span></a>
+      <nav class="header-links">
+        <a href="https://marieconstancemuniz.com" data-track="back_to_main_site">&larr; back to marieconstancemuniz.com</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <p class="kicker">Benvenuti al mercato</p>
+      <h1 class="display">The little market of<br>everything I make.</h1>
+      <p class="sub">Operating systems, custom tools, guides, and paintings. Unrelated on purpose, all built with care. Some things are ready now, some are coming soon.</p>
+    </section>
+
+    <div class="chips" role="group" aria-label="Filter by topic">
+      <button class="chip active" data-filter="all">all</button>
+      <button class="chip" data-filter="job-search">job search</button>
+      <button class="chip" data-filter="small-business">small business</button>
+      <button class="chip" data-filter="food">food</button>
+      <button class="chip" data-filter="fitness">fitness</button>
+      <button class="chip" data-filter="ai">ai &amp; automation</button>
+      <button class="chip" data-filter="art">art</button>
+    </div>
+
+    <!-- OPERATING SYSTEMS -->
+    <section class="shop-section" id="operating-systems">
+      <div class="section-head">
+        <h2 class="section-title">Operating Systems</h2>
+      </div>
+      <p class="section-sub">Complete Claude-powered systems with a guided course inside.</p>
+      <div class="grid-3">
+
+        <article class="card card--js" data-topic="job-search">
+          <div class="pills">
+            <span class="pill pill--js">job search</span>
+            <span class="pill pill--free">free</span>
+          </div>
+          <h3>Job Search OS</h3>
+          <p>A full job search pipeline in Claude Code, with an interactive course that takes under an hour.</p>
+          <div class="cta-row">
+            <a class="btn btn--nav btn--block" href="/job-search-os/" data-track="card_click" data-product="job-search-os">View course &amp; download &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card card--sb" data-topic="small-business">
+          <div class="pills">
+            <span class="pill pill--sb">small business</span>
+          </div>
+          <h3>Operational Audit OS</h3>
+          <p>Audit your operations and find your AI and automation opportunities.</p>
+          <p class="note">Available with client engagements.</p>
+          <div class="cta-row">
+            <a class="btn btn--email btn--block" href="mailto:mariecmuniz@gmail.com?subject=Access%20request%3A%20Operational%20Audit%20OS" data-track="inquiry_click" data-product="operational-audit-os">&#9993; Email me for access</a>
+          </div>
+        </article>
+
+        <article class="card card--sb" data-topic="small-business">
+          <div class="pills">
+            <span class="pill pill--sb">small business</span>
+          </div>
+          <h3>Digital Presence OS</h3>
+          <p>Website, SEO and AEO, brand, content, and lead gen in one system.</p>
+          <p class="note">Available with client engagements.</p>
+          <div class="cta-row">
+            <a class="btn btn--email btn--block" href="mailto:mariecmuniz@gmail.com?subject=Access%20request%3A%20Digital%20Presence%20OS" data-track="inquiry_click" data-product="digital-presence-os">&#9993; Email me for access</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CUSTOM TOOLS -->
+    <section class="shop-section" id="custom-tools">
+      <div class="section-head">
+        <h2 class="section-title">Custom Tools</h2>
+      </div>
+      <p class="section-sub">Live apps and tools, plus custom builds for your use case.</p>
+      <div class="grid-3">
+
+        <article class="card card--food" data-topic="food">
+          <div class="pills">
+            <span class="pill pill--food">food</span>
+            <span class="pill pill--live">first version &middot; live now</span>
+          </div>
+          <h3>Vegan Meal Planner</h3>
+          <p>Plant-based meal plans personalized to your goals, lifestyle, and activity. Batch cooking and grocery lists built in.</p>
+          <div class="cta-row">
+            <a class="btn btn--nav btn--block" href="/meal-planner/" data-track="card_click" data-product="vegan-meal-planner">Explore the tool &rarr;</a>
+          </div>
+        </article>
+
+        <article class="card card--fit" data-topic="fitness">
+          <div class="pills">
+            <span class="pill pill--fit">fitness</span>
+            <span class="pill pill--status">in development</span>
+          </div>
+          <h3>Training Tracker</h3>
+          <p>One strength training tracker, two sides. Trainers keep programs current, clients log their sessions, both see the analysis that guides the next step.</p>
+          <div class="cta-row">
+            <a class="btn btn--email btn--block" href="mailto:mariecmuniz@gmail.com?subject=Training%20Tracker%3A%20count%20me%20in%20as%20a%20tester" data-track="inquiry_click" data-product="training-tracker">&#9993; Email me to test it</a>
+          </div>
+        </article>
+
+        <article class="card card--sb" data-topic="small-business">
+          <div class="pills">
+            <span class="pill pill--sb">small business</span>
+          </div>
+          <h3>Internal Tools, Built for You</h3>
+          <p>Custom tooling for your specific workflow. Tell me what slows you down.</p>
+          <div class="cta-row">
+            <a class="btn btn--email btn--block" href="mailto:mariecmuniz@gmail.com?subject=Custom%20internal%20tools%20inquiry" data-track="inquiry_click" data-product="internal-tools">&#9993; Email me about your use case</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- DOWNLOADABLES -->
+    <section class="shop-section" id="downloadables">
+      <div class="section-head">
+        <h2 class="section-title">Downloadables</h2>
+        <span class="pill--section">coming soon</span>
+      </div>
+      <p class="section-sub">Kits, guides, and cookbooks. Join the list and get a note when each one launches.</p>
+      <div class="grid-4">
+
+        <article class="card card--soon" data-topic="job-search">
+          <div class="pills"><span class="pill pill--outline-js">job search</span></div>
+          <h3>Job Search Kits</h3>
+          <p>Complete kits to stand out, get seen, and negotiate well. Templates, prompts, and field-tested guidance.</p>
+        </article>
+
+        <article class="card card--soon" data-topic="food">
+          <div class="pills"><span class="pill pill--outline-food">food</span></div>
+          <h3>Cookbooks</h3>
+          <p>Vegan, Mexican, and simple powerful techniques.</p>
+        </article>
+
+        <article class="card card--soon" data-topic="fitness">
+          <div class="pills"><span class="pill pill--outline-fit">fitness</span></div>
+          <h3>Strength Starter</h3>
+          <p>From first session to confident lifter: programs, form guidance, and progression for your first year.</p>
+        </article>
+
+        <article class="card card--soon" data-topic="ai">
+          <div class="pills"><span class="pill pill--outline-ai">ai &amp; automation</span></div>
+          <h3>Stack Guides</h3>
+          <p>Which tools for what, costs, and why.</p>
+        </article>
+
+      </div>
+
+      <div class="notify-bar" id="notify">
+        <p>Get notified when these launch. Pick your interests, one email per launch, no spam.</p>
+        <form class="notify-form" action="https://formspree.io/f/mwvdzqrl" method="POST">
+          <input type="hidden" name="_subject" value="New mercato notify signup">
+          <div class="interests">
+            <label><input type="checkbox" name="interests" value="job search kits"> job search kits</label>
+            <label><input type="checkbox" name="interests" value="cookbooks"> cookbooks</label>
+            <label><input type="checkbox" name="interests" value="strength starter"> strength starter</label>
+            <label><input type="checkbox" name="interests" value="ai guides"> ai guides</label>
+            <label><input type="checkbox" name="interests" value="art prints"> art prints</label>
+          </div>
+          <input class="input" type="email" name="email" placeholder="your@email.com" required aria-label="Your email">
+          <button class="btn btn--brick" type="submit">Notify me</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ART -->
+    <section class="shop-section" id="art">
+      <div class="section-head">
+        <h2 class="section-title">Art</h2>
+      </div>
+      <p class="section-sub">Original paintings and prints.</p>
+
+      <div class="art-feature" data-topic="art">
+        <img class="art-feature__img" src="/assets/art/wide-dont-believe.jpg" alt="Don't Believe Everything You Think, acrylic painting">
+        <div class="art-feature__body">
+          <div class="pills"><span class="pill pill--art">art</span></div>
+          <h3>The Mind Lies, The Body Speaks Truth</h3>
+          <p>A series about not trusting your thoughts, and trusting your body instead. Digitized prints available to order soon.</p>
+          <div class="btn-row" style="margin-top:14px">
+            <a class="btn btn--mustard" href="/art/" data-track="card_click" data-product="art-series">See the series &rarr;</a>
+            <a class="btn btn--mustard-outline" href="/art/#notify" data-track="card_click" data-product="art-prints-notify">Notify me when prints go on sale</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <span>mercato &middot; part of <a href="https://marieconstancemuniz.com" data-track="back_to_main_site">marieconstancemuniz.com</a></span>
+      <a href="https://marieconstancemuniz.com" data-track="back_to_main_site">&larr; back to the main site</a>
+    </footer>
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

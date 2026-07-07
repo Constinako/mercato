@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Mind Lies, The Body Speaks Truth — paintings by Marie-Constance Múñiz</title>
+  <meta name="description" content="An ongoing acrylic series about not trusting your thoughts, and trusting your body instead. English, Spanish, Italian, and counting. Prints coming soon.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Mono:wght@400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="stylesheet" href="/css/mercato.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-41CJMKQ3DV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-41CJMKQ3DV');
+  </script>
+</head>
+<body class="dark">
+  <div class="stripe"></div>
+
+  <div class="container">
+    <header class="site-header">
+      <a href="/" class="wordmark">mercato<span>.</span></a>
+      <nav class="header-links">
+        <a href="/">&larr; back to the market</a>
+        <a href="https://marieconstancemuniz.com" data-track="back_to_main_site">marieconstancemuniz.com</a>
+      </nav>
+    </header>
+
+    <!-- STATEMENT -->
+    <section class="art-statement">
+      <p class="kicker">An ongoing series</p>
+      <h1 class="display">The Mind Lies,<br>The Body Speaks Truth.</h1>
+      <p class="sub">A series about not trusting your thoughts, and trusting your body instead. The mind lies in every language, so the series travels: English, Spanish, Italian, and counting.</p>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery">
+      <div class="grid-3">
+        <button class="art-item" data-full="/assets/art/dont-believe-full.jpg" data-track="card_click" data-product="art-dont-believe">
+          <img src="/assets/art/dont-believe.jpg" alt="Don't Believe Everything You Think — a figure whose face is covered by a painted sign, surreal seaside landscape with UFO and staircase">
+          <div class="art-item__meta">
+            <b>Don't Believe Everything You Think</b>
+            <span>acrylic &middot; prints coming soon</span>
+          </div>
+        </button>
+        <button class="art-item" data-full="/assets/art/no-creas-full.jpg" data-track="card_click" data-product="art-no-creas">
+          <img src="/assets/art/no-creas.jpg" alt="No Creas Todo Lo Que Piensas — a figure whose face is covered by a painted sign in Spanish, night landscape with cliff and sea">
+          <div class="art-item__meta">
+            <b>No Creas Todo Lo Que Piensas</b>
+            <span>acrylic &middot; prints coming soon</span>
+          </div>
+        </button>
+        <button class="art-item" data-full="/assets/art/cowboy-full.jpg" data-track="card_click" data-product="art-cowboy">
+          <img src="/assets/art/cowboy.jpg" alt="Stop Taking Your Thoughts So Seriously Cowboy — a cowboy with three eyes under a painted banner, desert landscape with UFO and cow">
+          <div class="art-item__meta">
+            <b>Stop Taking Your Thoughts So Seriously Cowboy</b>
+            <span>acrylic &middot; prints coming soon</span>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <!-- COMING NEXT -->
+    <p class="coming-label">Coming next</p>
+    <section class="teasers">
+      <div class="grid-2">
+        <div class="teaser">
+          <b>I PENSIERI<br>MENTONO</b>
+          <span>Italian &middot; words and concept ready, canvas waiting</span>
+        </div>
+        <div class="teaser">
+          <b>TU CABEZA<br>INVENTA VAINAS</b>
+          <span>Venezuelan Spanish &middot; words and concept ready, canvas waiting</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CUSTOM REQUESTS -->
+    <div class="dark-bar dark-bar--request">
+      <div class="bar-text"><b>Your language, your saying.</b> I take requests for custom pieces in the series.</div>
+      <a class="btn btn--mustard-outline" href="mailto:mariecmuniz@gmail.com?subject=Custom%20piece%20request%3A%20The%20Mind%20Lies%20series" data-track="inquiry_click" data-product="art-custom-request">&#9993; Request a piece</a>
+    </div>
+
+    <!-- NOTIFY -->
+    <div class="dark-bar dark-bar--notify" id="notify">
+      <div class="bar-text"><b>Prints are coming.</b> Be first to know.</div>
+      <form class="notify-form" action="https://formspree.io/f/mwvdzqrl" method="POST" style="flex:1;min-width:260px">
+        <input type="hidden" name="_subject" value="New mercato notify signup (art prints)">
+        <input type="hidden" name="interests" value="art prints">
+        <input class="input" type="email" name="email" placeholder="your@email.com" required aria-label="Your email">
+        <button class="btn btn--mustard" type="submit">Notify me</button>
+      </form>
+    </div>
+
+    <footer class="site-footer">
+      <span>mercato &middot; part of <a href="https://marieconstancemuniz.com" data-track="back_to_main_site">marieconstancemuniz.com</a></span>
+      <a href="/">&larr; back to the market</a>
+    </footer>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="Painting, enlarged">
+    <img src="" alt="">
+  </div>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
