@@ -268,9 +268,12 @@ h2.section-title { font-family: var(--font-display); font-size: 1.5rem; font-wei
    JOB SEARCH OS PAGE
    ===================== */
 .badge-course {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: var(--mustard); border-radius: 999px; padding: 7px 16px;
-  margin: 4px 0 14px;
+  display: inline-flex; align-items: center; flex-wrap: wrap; gap: 4px 8px;
+  background: var(--mustard); border-radius: 18px; padding: 7px 16px;
+  margin: 16px 0 16px;
+}
+@media (max-width: 620px) {
+  .badge-course span { border-left: none; padding-left: 0; }
 }
 .badge-course b { font-size: 0.8rem; color: #3D2E0A; }
 .badge-course span {
